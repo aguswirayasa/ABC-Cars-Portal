@@ -63,15 +63,10 @@ To run the ABC-Cars-Portal project locally, please follow these steps:
 3. Setup `application.properties`:
 
     ```
-    spring.mvc.view.prefix=/views/
-    spring.mvc.view.suffix=.jsp
-    server.port=8080
     spring.datasource.url=jdbc:mysql://localhost:3306/cars_portal
     spring.datasource.username=<YOUR_DB_USERNAME>
     spring.datasource.password=<YOUR_DB_PASSWORD>   
-    spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
-    spring.jpa.hibernate.ddl-auto = update
-    spring.jpa.properties.hibernate.show_sql=true
+   
     ```
 
 4. Run the Java application and open http://localhost:8080.
