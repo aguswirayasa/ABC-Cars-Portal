@@ -1,0 +1,198 @@
+2023-04-20 22:57:14,198 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 21972 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 22:57:14,203 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 22:57:14,204 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 22:57:14,235 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-20 22:57:14,235 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-20 22:57:14,696 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 22:57:14,739 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2023-04-20 22:57:15,215 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 22:57:15,221 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 22:57:15,222 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 22:57:15,222 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 22:57:15,384 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 22:57:15,390 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 22:57:15,390 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1154 ms
+2023-04-20 22:57:15,516 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 22:57:15,559 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-04-20 22:57:15,651 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-20 22:57:15,720 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-20 22:57:15,817 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-20 22:57:15,827 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 22:57:16,259 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 22:57:16,265 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 22:57:16,520 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 22:57:16,712 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27d64213, org.springframework.security.web.context.SecurityContextPersistenceFilter@380c4a02, org.springframework.security.web.header.HeaderWriterFilter@62f21b02, org.springframework.security.web.authentication.logout.LogoutFilter@7558fc5e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1590bb33, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5669ba9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58ecf3b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3eab3bad, org.springframework.security.web.session.SessionManagementFilter@340fc212, org.springframework.security.web.access.ExceptionTranslationFilter@5fc361d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b8909f0]
+2023-04-20 22:57:16,843 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 22:57:16,937 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 22:57:16,950 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 22:57:16,974 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 22:57:16,982 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 3.009 seconds (JVM running for 3.868)
+2023-04-20 22:57:24,711 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-20 22:57:24,711 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-20 22:57:24,712 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-20 23:01:38,997 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:01:39,000 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-04-20 23:01:39,004 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-04-20 23:01:39,079 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 21972 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:01:39,080 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:01:39,080 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:01:39,237 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:01:39,248 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:01:39,327 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:01:39,328 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:01:39,328 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:01:39,328 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:01:39,396 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:01:39,400 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:01:39,400 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 317 ms
+2023-04-20 23:01:39,432 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:01:39,436 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-04-20 23:01:39,439 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-04-20 23:01:39,440 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:01:39,491 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:01:39,491 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:01:39,550 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:01:39,746 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method exceptionHandling() is undefined for the type SecurityConfig
+	AccessDeniedHandler cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	AccessDeniedException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	OncePerRequestFilter cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	FilterChain cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	BasicAuthenticationFilter cannot be resolved to a type
+
+2023-04-20 23:01:39,747 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:01:39,747 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Shutdown initiated...
+2023-04-20 23:01:39,749 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Shutdown completed.
+2023-04-20 23:01:39,750 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2023-04-20 23:01:39,757 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-20 23:01:39,779 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method exceptionHandling() is undefined for the type SecurityConfig
+	AccessDeniedHandler cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	AccessDeniedException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	OncePerRequestFilter cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	FilterChain cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	BasicAuthenticationFilter cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.9.jar:2.6.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745) ~[spring-boot-2.6.9.jar:2.6.9]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420) ~[spring-boot-2.6.9.jar:2.6.9]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.6.9.jar:2.6.9]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317) ~[spring-boot-2.6.9.jar:2.6.9]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.6.9.jar:2.6.9]
+	at com.abc.CarsPortalApplication.main(CarsPortalApplication.java:10) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.9.jar:2.6.9]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method exceptionHandling() is undefined for the type SecurityConfig
+	AccessDeniedHandler cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	AccessDeniedException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	OncePerRequestFilter cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	FilterChain cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	BasicAuthenticationFilter cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 24 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method exceptionHandling() is undefined for the type SecurityConfig
+	AccessDeniedHandler cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	AccessDeniedException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	OncePerRequestFilter cannot be resolved to a type
+	HttpServletRequest cannot be resolved to a type
+	HttpServletResponse cannot be resolved to a type
+	FilterChain cannot be resolved to a type
+	ServletException cannot be resolved to a type
+	IOException cannot be resolved to a type
+	BasicAuthenticationFilter cannot be resolved to a type
+
+	at com.abc.security.SecurityConfig.configure(SecurityConfig.java:58) ~[classes/:?]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:217) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:315) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:93) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at com.abc.security.SecurityConfig$$EnhancerBySpringCGLIB$$d637e78f.init(<generated>) ~[classes/:?]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127) ~[spring-security-config-5.6.6.jar:5.6.6]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 24 more
+2023-04-20 23:03:48,975 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 21972 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:03:48,976 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:03:48,976 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:03:49,126 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:03:49,139 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:03:49,214 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:03:49,214 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:03:49,215 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:03:49,215 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:03:49,273 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:03:49,275 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:03:49,275 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 297 ms
+2023-04-20 23:03:49,304 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:03:49,309 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-04-20 23:03:49,312 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-04-20 23:03:49,312 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:03:49,364 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:03:49,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:03:49,427 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:03:49,468 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20852201, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fca8307, org.springframework.security.web.header.HeaderWriterFilter@3dff6cff, org.springframework.security.web.authentication.logout.LogoutFilter@29386645, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e9202aa, com.abc.security.SecurityConfig$2@6d6f259, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fe27173, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9bc64e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3835500, org.springframework.security.web.session.SessionManagementFilter@30857e6e, org.springframework.security.web.access.ExceptionTranslationFilter@3db3b76a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fef47e4]
+2023-04-20 23:03:49,506 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 23:03:49,536 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 23:03:49,543 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:03:49,547 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 23:03:49,550 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 0.606 seconds (JVM running for 396.436)
+2023-04-20 23:03:49,552 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged

@@ -1,0 +1,156 @@
+2023-04-20 23:29:59,801 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 28516 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:29:59,806 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:29:59,807 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:29:59,838 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-20 23:29:59,838 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-20 23:30:00,312 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:30:00,355 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:30:00,834 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:30:00,841 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:00,842 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:30:00,842 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:30:01,004 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:30:01,009 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:30:01,009 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1170 ms
+2023-04-20 23:30:01,116 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:30:01,151 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-04-20 23:30:01,240 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-20 23:30:01,302 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-20 23:30:01,399 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-20 23:30:01,408 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:30:01,823 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:30:01,829 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:02,087 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:30:02,281 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15c7c85b, org.springframework.security.web.context.SecurityContextPersistenceFilter@56b172c, org.springframework.security.web.header.HeaderWriterFilter@68926da4, org.springframework.security.web.csrf.CsrfFilter@1c48572f, org.springframework.security.web.authentication.logout.LogoutFilter@1fab780d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72c6cbc8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1955750e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@384c6e8a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ad9b82c, org.springframework.security.web.session.SessionManagementFilter@66dd9137, org.springframework.security.web.access.ExceptionTranslationFilter@6e56837e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53f1e2de]
+2023-04-20 23:30:02,414 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 23:30:02,515 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 23:30:02,531 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:02,550 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 23:30:02,558 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 2.981 seconds (JVM running for 3.743)
+2023-04-20 23:30:09,093 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-20 23:30:09,093 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-20 23:30:09,094 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-20 23:30:10,922 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-04-20 23:30:31,382 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:31,384 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-04-20 23:30:31,389 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-04-20 23:30:31,455 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 28516 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:30:31,455 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:30:31,456 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:30:31,613 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:30:31,623 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:30:31,698 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:30:31,698 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:31,699 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:30:31,699 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:30:31,764 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:30:31,766 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:30:31,766 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 308 ms
+2023-04-20 23:30:31,796 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:30:31,800 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-04-20 23:30:31,803 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-04-20 23:30:31,803 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:30:31,849 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:30:31,849 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:31,906 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:30:31,947 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3139a5bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ad2e713, org.springframework.security.web.header.HeaderWriterFilter@61cfbb39, org.springframework.security.web.csrf.CsrfFilter@78bf087a, org.springframework.security.web.authentication.logout.LogoutFilter@54a88980, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a86bb27, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29c0f81a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@354a9868, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e831513, org.springframework.security.web.session.SessionManagementFilter@5aaed8e4, org.springframework.security.web.access.ExceptionTranslationFilter@31484526, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5164c1bb]
+2023-04-20 23:30:31,982 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 23:30:32,013 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 23:30:32,019 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:32,022 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 23:30:32,025 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 0.604 seconds (JVM running for 33.21)
+2023-04-20 23:30:32,027 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-20 23:30:44,593 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:44,593 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-04-20 23:30:44,595 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-04-20 23:30:44,659 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 28516 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:30:44,659 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:30:44,659 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:30:44,807 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:30:44,816 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:30:44,884 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:30:44,885 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:44,885 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:30:44,885 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:30:44,946 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:30:44,948 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:30:44,948 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 287 ms
+2023-04-20 23:30:44,975 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:30:44,980 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-04-20 23:30:44,983 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-04-20 23:30:44,983 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:30:45,033 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:30:45,033 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:45,087 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:30:45,124 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5394eb81, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c32fb21, org.springframework.security.web.header.HeaderWriterFilter@2026ee4f, org.springframework.security.web.csrf.CsrfFilter@2e0db9b9, org.springframework.security.web.authentication.logout.LogoutFilter@4c89f564, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ba6c18c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b645dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12f587b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@738add7c, org.springframework.security.web.session.SessionManagementFilter@2fb14f1f, org.springframework.security.web.access.ExceptionTranslationFilter@a5c7625, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3329a95a]
+2023-04-20 23:30:45,161 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 23:30:45,187 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 23:30:45,193 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:45,196 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 23:30:45,199 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 0.572 seconds (JVM running for 46.385)
+2023-04-20 23:30:45,200 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-20 23:30:51,708 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:51,709 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-04-20 23:30:51,711 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-04-20 23:30:51,785 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 28516 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:30:51,785 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:30:51,785 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:30:51,937 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:30:51,947 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:30:52,015 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:30:52,016 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:52,016 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:30:52,016 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:30:52,074 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:30:52,075 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:30:52,075 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 287 ms
+2023-04-20 23:30:52,101 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:30:52,105 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-04-20 23:30:52,107 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-04-20 23:30:52,108 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:30:52,152 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:30:52,153 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:30:52,205 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:30:52,242 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e679822, org.springframework.security.web.context.SecurityContextPersistenceFilter@12a46545, org.springframework.security.web.header.HeaderWriterFilter@49be1fbf, org.springframework.security.web.csrf.CsrfFilter@2cbef6cb, org.springframework.security.web.authentication.logout.LogoutFilter@323466f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@730e5037, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d219b4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74db26b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7089b85a, org.springframework.security.web.session.SessionManagementFilter@4977ca0e, org.springframework.security.web.access.ExceptionTranslationFilter@15295e6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ca02d77]
+2023-04-20 23:30:52,275 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 23:30:52,301 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 23:30:52,307 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:30:52,310 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 23:30:52,314 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 0.567 seconds (JVM running for 53.499)
+2023-04-20 23:30:52,315 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-20 23:31:02,108 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-20 23:31:02,108 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-20 23:31:02,109 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-20 23:31:22,170 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:31:22,170 INFO c.z.h.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2023-04-20 23:31:22,171 INFO c.z.h.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2023-04-20 23:31:22,238 INFO o.s.b.StartupInfoLogger [restartedMain] Starting CarsPortalApplication using Java 18.0.2.1 on LAPTOP-RBUQPOC8 with PID 28516 (C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal\target\classes started by LENOVO in C:\Users\LENOVO\Documents\MODULE 7 ADP\zeus\Cars-Portal)
+2023-04-20 23:31:22,239 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.9, Spring v5.3.21
+2023-04-20 23:31:22,239 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-20 23:31:22,380 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-20 23:31:22,390 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2023-04-20 23:31:22,454 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-20 23:31:22,454 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:31:22,455 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-20 23:31:22,455 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-20 23:31:22,510 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-20 23:31:22,512 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-20 23:31:22,512 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 271 ms
+2023-04-20 23:31:22,538 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-20 23:31:22,542 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-04-20 23:31:22,545 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-04-20 23:31:22,545 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-20 23:31:22,585 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-20 23:31:22,586 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-20 23:31:22,636 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-20 23:31:22,671 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56047377, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a16950f, org.springframework.security.web.header.HeaderWriterFilter@489dec60, org.springframework.security.web.csrf.CsrfFilter@185e62c8, org.springframework.security.web.authentication.logout.LogoutFilter@42e71206, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e91a0ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15fb3837, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32a23804, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ca35847, org.springframework.security.web.session.SessionManagementFilter@4135f7c3, org.springframework.security.web.access.ExceptionTranslationFilter@886fa80, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55128954]
+2023-04-20 23:31:22,705 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-04-20 23:31:22,733 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-20 23:31:22,738 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-20 23:31:22,741 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-20 23:31:22,744 INFO o.s.b.StartupInfoLogger [restartedMain] Started CarsPortalApplication in 0.539 seconds (JVM running for 83.931)
+2023-04-20 23:31:22,745 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-20 23:31:28,232 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-20 23:31:28,233 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-20 23:31:28,234 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-20 23:31:34,534 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
